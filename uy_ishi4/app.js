@@ -12,6 +12,7 @@ if(result){
                   break;
               }else if(answer > trueAnswer){
                   confirm("Men o`ylagan son bundan kichik!")
+                  if(confirm == false)
               }else{
                   confirm("Men o`ylagan son bundan katta!")
               }
